@@ -1,0 +1,32 @@
+<section class="shop-section">
+    <h1 class="section-title">SHOP ALL</h1>
+    
+    <div class="filter-bar">
+        <button class="filter-button active">All Categories</button>
+        <button class="filter-button">Tops</button>
+        <button class="filter-button">Bottoms</button>
+        <button class="filter-button">Accessories</button>
+        <select class="sort-select">
+            <option value="newest">Newest</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+        </select>
+    </div>
+
+    <div class="products-grid">
+        {{#if products}}
+            {{#each products}}
+            <article class="product-card">
+                <img src="{{imageUrl}}" alt="{{name}}" loading="lazy">
+                <div class="product-info">
+                    <h3>{{name}}</h3>
+                    <p class="price">${{price}}</p>
+                    <button class="button">Add to Cart</button>
+                </div>
+            </article>
+            {{/each}}
+        {{else}}
+            <p>No products found</p>
+        {{/if}}
+    </div>
+</section>

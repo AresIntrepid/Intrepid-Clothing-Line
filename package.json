@@ -1,0 +1,18 @@
+{
+    "name": "intrepid-store",
+    "version": "1.0.0",
+    "description": "INTREPID Streetwear E-commerce Platform",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^7.1.2",
+        "mongoose": "^8.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

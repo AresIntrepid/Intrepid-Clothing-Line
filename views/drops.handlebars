@@ -1,0 +1,31 @@
+<section class="drops-section">
+    <h1 class="section-title">UPCOMING DROPS</h1>
+    
+    <div class="drops-grid">
+        {{#each upcomingDrops}}
+        <article class="drop-card">
+            <img src="{{imageUrl}}" alt="{{name}}" loading="lazy">
+            <div class="drop-info">
+                <h2>{{name}}</h2>
+                <p class="drop-date">Dropping {{dropDate}}</p>
+                <p class="drop-description">{{description}}</p>
+                <button class="button notify-button">GET NOTIFIED</button>
+            </div>
+        </article>
+        {{/each}}
+    </div>
+
+    <h2 class="section-title">PAST DROPS</h2>
+    
+    <div class="drops-grid">
+        {{#each pastDrops}}
+        <article class="drop-card past">
+            <img src="{{imageUrl}}" alt="{{name}}" loading="lazy">
+            <div class="drop-info">
+                <h2>{{name}}</h2>
+                <p class="status">SOLD OUT</p>
+            </div>
+        </article>
+        {{/each}}
+    </div>
+</section>

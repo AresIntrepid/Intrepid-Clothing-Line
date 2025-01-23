@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+    <nav class="main-nav">
+    <a href="/" class="logo">INTREPID</a>
+    <ul class="nav-links">
+        <li><a href="/shop" {{#if isShop}}class="active"{{/if}}>SHOP</a></li>
+        <li><a href="/drops" {{#if isDrops}}class="active"{{/if}}>DROPS</a></li>
+        <li><a href="/about" {{#if isAbout}}class="active"{{/if}}>ABOUT</a></li>
+        <li class="cart-icon">
+            <a href="/cart">CART</a>
+            <span class="cart-count">0</span>
+        </li>
+    </ul>
+    </nav>
+    </header>
+
+    <main>
+        {{{body}}}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© {{currentYear}} INTREPID. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">INSTAGRAM</a>
+                <a href="#" aria-label="Discord">DISCORD</a>
+                <a href="#" aria-label="Twitter">TWITTER</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,22 @@
+<section class="hero">
+    <div class="hero-content">
+        <h1>INTREPID</h1>
+        <p class="hero-subtitle">PUSHING BOUNDARIES IN STREET CULTURE</p>
+        <a href="/shop" class="button cta-button">SHOP NOW</a>
+    </div>
+</section>
+
+<section class="latest-drops">
+    <h2 class="section-title">LATEST DROPS</h2>
+    <div class="products-grid">
+        {{#each products}}
+        <article class="product-card">
+            <img src="{{imageUrl}}" alt="{{name}}" loading="lazy">
+            <div class="product-info">
+                <h3>{{name}}</h3>
+                <p class="price">${{price}}</p>
+            </div>
+        </article>
+        {{/each}}
+    </div>
+</section>

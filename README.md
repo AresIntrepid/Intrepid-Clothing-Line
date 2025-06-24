@@ -18,7 +18,6 @@ INTREPID is a modern streetwear e-commerce platform built with React, Node.js, E
 - [Styling](#styling)
 - [Screens & Templates](#screens--templates)
 - [Seeding the Database](#seeding-the-database)
-- [License](#license)
 
 ---
 

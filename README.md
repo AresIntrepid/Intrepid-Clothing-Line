@@ -1,23 +1,3 @@
-Read file: app.js
-Read file: data.js
-Read file: models/Product.js
-Read file: modules/config.js
-Read file: routes/index.js
-Read file: public/scripts/main.js
-Read file: public/styles/styles.css
-Read file: views/home.handlebars
-Read file: views/shop.handlebars
-Read file: views/cart.handlebars
-Read file: views/drops.handlebars
-Read file: views/about.handlebars
-Read file: views/about.handlebars
-Read file: views/layouts/main.handlebars
-Read file: package.json
-Read file: package-lock.json
-Here is a detailed README for your INTREPID project, based on the codebase:
-
----
-
 # INTREPID Streetwear E-commerce Platform
 
 INTREPID is a modern streetwear e-commerce platform built with Node.js, Express, MongoDB, and Handlebars. It features a clean, responsive UI, dynamic product filtering, a shopping cart, and a drops showcase.

@@ -1,6 +1,6 @@
 # INTREPID Streetwear E-commerce Platform
 
-INTREPID is a modern streetwear e-commerce platform built with Node.js, Express, MongoDB, and Handlebars. It features a clean, responsive UI, dynamic product filtering, a shopping cart, and a drops showcase.
+INTREPID is a modern streetwear e-commerce platform built with React, Node.js, Express, MongoDB, and Handlebars. It features a clean, responsive UI, dynamic product filtering, a shopping cart, and a drops showcase.
 
 ---
 
